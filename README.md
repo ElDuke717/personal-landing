@@ -1,6 +1,6 @@
 # Personal Landing Page
 
-This is my updated personal landing page.  I initiatlly built my landing page with a template, but decided to build this page with Next.js for more customization.
+This is my updated personal landing page.  I initially built my landing page with a template, but decided to build this page with Next.js for more customization.
 
 ## Running Locally
 

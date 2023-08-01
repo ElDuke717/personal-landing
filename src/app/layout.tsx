@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Nick Huemmer',
-  description: 'Nick Huemmer is a software engineer and designer.',
+  description: 'Nick Huemmer is a software engineer.',
 }
 // Children is the content of the page. They must added to the layout.
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <div>Layout</div>
+      <div>Nick Huemmer</div>
         <div>
           {children}
         </div>

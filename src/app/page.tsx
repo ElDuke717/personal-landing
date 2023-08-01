@@ -17,14 +17,19 @@ export default function Home() {
         priority
         className="next-image rounded-md"
       />
-      <p >
+      <p>
         I'm a Software Engineer with a focus on frontend and fullstack development. 
-        I use JavaScript, React, HTML5, CSS, Node.js, Express.js, Next.js, Astro, SvelteKit, and TypeScript for my work.  
-        I also have experience contributing to several open source projects including Reactime, a performance monitoring tool for React applications.
-        I enjoy crafting interactive, functional, accessible and aesthetically appealing websites and applications.  
-        My blog about software engineering and related topics at can be found at <a href="https://www.nickhuemmer.com">nickhuemmer.com</a>.
+        I use JavaScript, React, HTML5, CSS, Node.js, Express.js, Next.js, Astro, SvelteKit, and TypeScript for my work.</p>  
+        <p>I also have experience contributing to several open source projects including Reactime, a performance monitoring tool for React applications.
+        </p>
+        <p>I enjoy crafting interactive, functional, accessible and aesthetically appealing websites and applications. 
+        </p>
+        <p>  
+        My blog about software engineering and related topics at can be found at <a href="https://www.nickhuemmer.com">nickhuemmer.com</a>.</p>
+        <p>
         My primary interests are walking, reading (philosophy, natural sciences, technology), writing and spending time with my family. 
-      </p>
+        </p>
+      
       <a href="mailto:hello@nickhuemmer.me">hello@nickhuemmer.me</a>
       <div>
         <div className='logo-div social'>

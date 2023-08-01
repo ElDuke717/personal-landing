@@ -8,15 +8,16 @@ export default function Home() {
       <Head>
         <title>Nick Huemmer</title>
       </Head>
+      <div className="flex flex-col items-center justify-center">
       <Image
         src="/images/lo--2.jpg"
         alt="photo of nick huemmer"
         width={550}
         height={350}
         priority
-        className="next-image"
+        className="next-image rounded-md"
       />
-      <p>
+      <p >
         I'm a Software Engineer with a focus on frontend and fullstack development. 
         I use JavaScript, React, HTML5, CSS, Node.js, Express.js, Next.js, Astro, SvelteKit, and TypeScript for my work.  
         I also have experience contributing to several open source projects including Reactime, a performance monitoring tool for React applications.
@@ -34,7 +35,7 @@ export default function Home() {
             width={75}
             height={75}
             priority
-            className="next-image logo"
+            className=""
             />
           </a>
           <a href="https://github.com/ElDuke717">
@@ -71,6 +72,7 @@ export default function Home() {
           </a>
           <br />
         </div>
+      </div>
       </div>
     </Layout>
   )

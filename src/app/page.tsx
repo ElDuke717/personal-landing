@@ -26,7 +26,7 @@ export default function Home() {
         <p className='my-5'>I enjoy crafting interactive, functional, accessible and aesthetically appealing websites and applications. 
         </p>
         <p className='my-5'>  
-        My blog about software engineering and related topics at can be found at <a href="https://www.nickhuemmer.com">nickhuemmer.com</a>.</p>
+        My blog about software engineering and related topics at can be found at <a className="text-lg font-bold decoration-solid"href="https://www.nickhuemmer.com">nickhuemmer.com</a>.</p>
         <p className='my-5'>
         My primary interests are walking, reading (philosophy, natural sciences, technology), writing and spending time with my family. 
         </p>
@@ -34,6 +34,7 @@ export default function Home() {
       <a className="text-lg font-semibold"href="mailto:hello@nickhuemmer.me">hello@nickhuemmer.me</a>
       </div>
       <br />
+      <hr></hr>
       <div className="logos flex flex-col items-center justify-center">
         <div className='logo-div social flex flex-col items-center justify-center'>
           <a href="https://twitter.com/njhuemmer">

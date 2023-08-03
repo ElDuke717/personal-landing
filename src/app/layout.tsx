@@ -20,13 +20,17 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
       <h1 className="font-bold text-4xl mx-5 my-8">Nick Huemmer</h1>
-      <div className='nx-flex nx-grow nx-flex-wrap nx-items-center nx-justify-end nx-gap-3'>
-        <a className="nx-cursor-default dark:nx-text-gray-400 nx-text-gray-600"href="/">Nick Huemmer</a>
-        <a href="/software">software</a>
+      <div className="flex justify-end items-center mx-5 my-8">
+        <a className="cursor-default text-gray-600 dark:text-gray-400" href="/">
+          Nick Huemmer
+        </a>
+        <a className="ml-4" href="/software">
+          software
+        </a>
       </div>
-        <div>
-          {children}
-        </div>
+      <div>
+        {children}
+      </div>
         </body>
     </html>
   )

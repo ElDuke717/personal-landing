@@ -17,7 +17,7 @@ export default function Home() {
         priority
         className="next-image rounded-md"
       /> 
-      <div className="flex flex-col items-center justify-center mx-10">
+      <div className="flex flex-col items-left justify-center mx-10">
       <p className='my-5'>
         I&#39;m a Software Engineer with a focus on frontend and fullstack development. 
         I use JavaScript, React, HTML5, CSS, Node.js, Express.js, Next.js, Astro, SvelteKit, and TypeScript for my work.</p>  
@@ -31,11 +31,11 @@ export default function Home() {
         My primary interests are walking, reading (philosophy, natural sciences, technology), writing and spending time with my family. 
         </p>
       
-      <a href="mailto:hello@nickhuemmer.me">hello@nickhuemmer.me</a>
+      <a className="text-lg font-semibold"href="mailto:hello@nickhuemmer.me">hello@nickhuemmer.me</a>
       </div>
       <br />
-      <div>
-        <div className='logo-div social'>
+      <div className="logos flex flex-col items-center justify-center">
+        <div className='logo-div social flex flex-col items-center justify-center'>
           <a href="https://twitter.com/njhuemmer">
             <Image
             src="/logos/twitter250.svg"

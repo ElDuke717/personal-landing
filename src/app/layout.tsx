@@ -21,11 +21,14 @@ export default function RootLayout({
       <body className={inter.className}>
       <h1 className="font-bold text-4xl mx-5 my-8">Nick Huemmer</h1>
       <div className="flex justify-end items-center mx-5 my-8">
-        <a className="cursor-default text-gray-600 dark:text-gray-400" href="/">
+        <a className="cursor-default" href="/">
           Nick Huemmer
         </a>
         <a className="ml-4" href="/software">
           software
+        </a>
+        <a className="ml-4" href="/experience">
+          experience
         </a>
       </div>
       <div>

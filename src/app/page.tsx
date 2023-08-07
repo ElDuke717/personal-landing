@@ -34,54 +34,53 @@ export default function Home() {
       <a className="text-lg font-semibold"href="mailto:hello@nickhuemmer.me">hello@nickhuemmer.me</a>
       </div>
       <br />
-      <hr></hr>
-      <div className="logos flex flex-col items-center justify-center">
-        <div className='logo-div social flex flex-col items-center justify-center'>
-          <a href="https://twitter.com/njhuemmer">
-            <Image
-            src="/logos/twitter250.svg"
-            alt="twitter logo"
-            width={75}
-            height={75}
-            priority
-            className=""
-            />
-          </a>
-          <a href="https://github.com/ElDuke717">
-            <Image
-            src="/logos/github250.svg"
-            alt="github logo"
-            width={75}
-            height={75}
-            priority
-            className="next-image logo"
-            />
-          </a>
-          <br />
-          <a href="https://www.linkedin.com/in/nickjhuemmer/">
-            <Image
-            src="/logos/linkedin250.svg"
-            alt="linkedin logo"
-            width={75}
-            height={75}
-            priority
-            className="next-image logo"
-            />
-          </a>
-          <br />
-          <a href="https://medium.com/@njhuemmer">
-            <Image
-            src="/logos/medium250-2.png"
-            alt="medium logo"
-            width={75}
-            height={75}
-            priority
-            className="next-image logo"
-            />
-          </a>
-          <br />
-        </div>
-      </div>
+      <hr className="w-16 border-t-2 border-gray-400 mb-4" />
+      <div className="logos flex flex-row items-center justify-center space-x-4">
+  <div className='logo-div social flex flex-row items-center justify-center'>
+    
+    <a href="https://twitter.com/njhuemmer">
+      <Image
+        src="/logos/twitter250.svg"
+        alt="twitter logo"
+        width={75}
+        height={75}
+        priority
+        className=""
+      />
+    </a>
+    <a href="https://github.com/ElDuke717">
+      <Image
+        src="/logos/github250.svg"
+        alt="github logo"
+        width={75}
+        height={75}
+        priority
+        className="next-image logo"
+      />
+    </a>
+    <a href="https://www.linkedin.com/in/nickjhuemmer/">
+      <Image
+        src="/logos/linkedin250.svg"
+        alt="linkedin logo"
+        width={75}
+        height={75}
+        priority
+        className="next-image logo"
+      />
+    </a>
+    <a href="https://medium.com/@njhuemmer">
+      <Image
+        src="/logos/medium250-2.png"
+        alt="medium logo"
+        width={75}
+        height={75}
+        priority
+        className="next-image logo"
+      />
+    </a>
+  </div>
+</div>
+
       </div>
     </Layout>
   )

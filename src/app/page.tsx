@@ -17,10 +17,11 @@ export default function Home() {
         priority
         className="next-image rounded-md"
       /> 
-      <div className="flex flex-col items-left justify-center mx-10">
+      <div className="flex flex-col items-left justify-center mx-20">
       <p className='my-5'>
-        I&#39;m a Software Engineer with a focus on frontend and fullstack development. 
-        I am proficient with JavaScript, React, HTML5, CSS, Node.js, Express.js, Next.js, Astro, SvelteKit, and TypeScript.  I enjoy crafting interactive, functional, accessible and aesthetically appealing websites and applications</p>  
+        I&#39;m a Software Engineer specializing in frontend and fullstack development. </p>
+        My expertise includes a wide range of technologies such as JavaScript, React, HTML5, CSS, Node.js, Express.js, 
+        <p className='my-5'>I have experience with several frontend frameworks including React, Vue, and Svelte. I have also worked with several static site generators including Next.js, Astro, SvelteKit, and TypeScript. I take great pleasure in crafting immersive, functional, and aesthetically pleasing websites and applications that are also highly accessible.</p>  
         <p className='my-5'>I also have experience contributing to several open source projects including Reactime, a performance monitoring tool for React applications.
         </p>
         <p className='my-5'>  
@@ -32,52 +33,54 @@ export default function Home() {
       <a className="text-lg font-semibold"href="mailto:hello@nickhuemmer.me">hello@nickhuemmer.me</a>
       </div>
       <br />
-      <hr className="w-48 border-t-2 border-gray-400 mb-4" />
+      <div className="w-100 h-px bg-white"></div>
+
+      <hr className="w-100 h-px bg-gray " />
       <div className="logos flex flex-row items-center justify-center space-x-4">
-  <div className='logo-div social flex flex-row items-center justify-center'>
-    
-    <a className="mx-5" href="https://twitter.com/njhuemmer">
-      <Image
-        src="/logos/twitter250.svg"
-        alt="twitter logo"
-        width={75}
-        height={75}
-        priority
-        className=""
-      />
-    </a>
-    <a className="mx-5" href="https://github.com/ElDuke717">
-      <Image
-        src="/logos/github250.svg"
-        alt="github logo"
-        width={75}
-        height={75}
-        priority
-        className="next-image logo"
-      />
-    </a>
-    <a className="mx-5" href="https://www.linkedin.com/in/nickjhuemmer/">
-      <Image
-        src="/logos/linkedin250.svg"
-        alt="linkedin logo"
-        width={75}
-        height={75}
-        priority
-        className="next-image logo"
-      />
-    </a>
-    <a className="mx-5" href="https://medium.com/@njhuemmer">
-      <Image
-        src="/logos/medium250-2.png"
-        alt="medium logo"
-        width={75}
-        height={75}
-        priority
-        className="next-image logo"
-      />
-    </a>
+    <div className='logo-div social flex flex-row items-center justify-center'>
+      
+      <a className="mx-5" href="https://twitter.com/njhuemmer">
+        <Image
+          src="/logos/twitter250.svg"
+          alt="twitter logo"
+          width={75}
+          height={75}
+          priority
+          className=""
+        />
+      </a>
+      <a className="mx-5" href="https://github.com/ElDuke717">
+        <Image
+          src="/logos/github250.svg"
+          alt="github logo"
+          width={75}
+          height={75}
+          priority
+          className="next-image logo"
+        />
+      </a>
+      <a className="mx-5" href="https://www.linkedin.com/in/nickjhuemmer/">
+        <Image
+          src="/logos/linkedin250.svg"
+          alt="linkedin logo"
+          width={75}
+          height={75}
+          priority
+          className="next-image logo"
+        />
+      </a>
+      <a className="mx-5" href="https://medium.com/@njhuemmer">
+        <Image
+          src="/logos/medium250-2.png"
+          alt="medium logo"
+          width={75}
+          height={75}
+          priority
+          className="next-image logo"
+        />
+      </a>
+    </div>
   </div>
-</div>
 
       </div>
     </Layout>

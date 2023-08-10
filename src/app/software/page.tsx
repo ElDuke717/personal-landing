@@ -1,11 +1,11 @@
-import Image from 'next/image';
-import Layout from 'src/app/layout.tsx';
+import Image from "next/image";
+import Layout from "src/app/layout.tsx";
 
 export default function Software() {
   return (
     <Layout>
-      <div className='flex flex-col items-center justify-center space-y-6'>
-        <a href="https://github.com/open-source-labs/reactime" className='app'>
+      <div className="flex flex-col items-center justify-center space-y-6">
+        <a href="https://github.com/open-source-labs/reactime" className="app">
           <Image
             src="/logos/reactime_20.png"
             alt="reactime 20 logo"
@@ -16,10 +16,16 @@ export default function Software() {
           />
         </a>
         <p className="text-center max-w-500">
-          Reactime is a time travel debugger for React applications that allows developers to rewind time and replay previous versions of state in their components. It also allows them to view their component hierarchies.
+          Reactime is a time travel debugger for React applications that allows
+          developers to rewind time and replay previous versions of state in
+          their components. It also allows them to view their component
+          hierarchies.
         </p>
 
-        <a href="https://github.com/Proactive-Programmers/goalvault" className='app'>
+        <a
+          href="https://github.com/Proactive-Programmers/goalvault"
+          className="app"
+        >
           <Image
             src="/logos/goal_keeper.png"
             alt="goalkeeper logo"
@@ -30,10 +36,14 @@ export default function Software() {
           />
         </a>
         <p className="text-center max-w-500">
-          Goal Keeper is the premier application designed to help you achieve your goals. By allowing you to input individual goals and necessary sub-tasks, Goal Keeper makes tracking your progress and managing your time easier than ever. Each subtask can be assigned a priority and due date.
+          Goal Keeper is the premier application designed to help you achieve
+          your goals. By allowing you to input individual goals and necessary
+          sub-tasks, Goal Keeper makes tracking your progress and managing your
+          time easier than ever. Each subtask can be assigned a priority and due
+          date.
         </p>
 
-        <a href="https://github.com/StyleGPT" className='app'>
+        <a href="https://github.com/StyleGPT" className="app">
           <Image
             src="/logos/style_gpt.png"
             alt="stylegpt logo"
@@ -44,7 +54,10 @@ export default function Software() {
           />
         </a>
         <p className="text-center max-w-500">
-          StyleGPT is an app that leverages OpenAI's ChatGPT API to style HTML elements. By interacting with the app, you can receive stylistic recommendations for your HTML elements, making web development more intuitive and less time-consuming.
+          StyleGPT is an app that leverages OpenAI's ChatGPT API to style HTML
+          elements. By interacting with the app, you can receive stylistic
+          recommendations for your HTML elements, making web development more
+          intuitive and less time-consuming.
         </p>
       </div>
     </Layout>

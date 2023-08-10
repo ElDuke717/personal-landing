@@ -1,7 +1,5 @@
 const HeaderLink = () => {
-    return (
-        <div>header link</div>
-    )   
-    };
+  return <div>header link</div>;
+};
 
 export default HeaderLink;

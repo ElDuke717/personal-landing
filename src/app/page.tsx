@@ -19,33 +19,39 @@ export default function Home() {
         />
         <div className="flex flex-col items-left justify-center mx-20">
           <p className="my-5">
-            I&#39;m a Software Engineer specializing in frontend and fullstack
-            development.{" "}
+            I&#39;m a Software Engineer, full-stack developer and web
+            enthusiast.{" "}
           </p>
-          My expertise includes a wide range of technologies such as JavaScript,
-          React, HTML5, CSS, Node.js, Express.js,
-          <p className="my-5">
-            I have experience with several frontend frameworks including React,
-            Vue, and Svelte. I have also worked with several static site
-            generators including Next.js, Astro, SvelteKit, and TypeScript. I
-            take great pleasure in crafting immersive, functional, and
-            aesthetically pleasing websites and applications that are also
-            highly accessible.
+          <p>
+            I enjoy crafting immersive, functional, and aesthetically pleasing
+            websites and applications that are also highly accessible. The tools
+            I have the most experience with are JavaScript, HTML5, CSS, Node.js,
+            Express.js, and React. I also work with frontend frameworks Next.js,
+            Svelte and Astro.
           </p>
+
           <p className="my-5">
-            I also have experience contributing to several open source projects
-            including Reactime, a performance monitoring tool for React
-            applications.
+            I am an open-source enthusiast and have experience contributing to
+            several open source projects including{" "}
+            <a
+  className="font-bold underline underline-offset-2 text-blue-500 hover:text-blue-700"
+  href="https://www.reacti.me/"
+>
+  Reactime
+</a>
+
+            , a performance monitoring tool for React applications.
           </p>
           <p className="my-5">
             My blog about software engineering and related topics at can be
             found at{" "}
             <a
-              className="text-lg font-bold decoration-solid"
-              href="https://www.nickhuemmer.com"
-            >
-              nickhuemmer.com
-            </a>
+  className="text-lg font-bold text-blue-500 hover:text-blue-700"
+  href="https://www.nickhuemmer.com"
+>
+  nickhuemmer.com
+</a>
+
             .
           </p>
           <p className="my-5">

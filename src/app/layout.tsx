@@ -20,9 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <h1 className="font-bold text-4xl mx-5 my-8">Nick Huemmer</h1>
-        <div className="flex justify-end items-center mx-5 my-8">
+        <div className="flex justify-start items-center mx-5 my-8">
           <a className="cursor-default" href="/">
-            Nick Huemmer
+            about
           </a>
           <a className="ml-4" href="/software">
             software

@@ -17,7 +17,7 @@ export default function Home() {
           priority
           className="next-image rounded-md"
         />
-        <div className="flex flex-col items-left justify-center mx-20">
+        <div className="flex flex-col items-left justify-center mx-20 max-w-[800px]">
           <p className="my-5">
             I&#39;m a Software Engineer, full-stack developer and web
             enthusiast.{" "}
@@ -34,24 +34,22 @@ export default function Home() {
             I am an open-source enthusiast and have experience contributing to
             several open source projects including{" "}
             <a
-  className="font-bold underline underline-offset-2 text-blue-500 hover:text-blue-700"
-  href="https://www.reacti.me/"
->
-  Reactime
-</a>
-
+              className="font-bold underline underline-offset-2 text-blue-500 hover:text-blue-700"
+              href="https://www.reacti.me/"
+            >
+              Reactime
+            </a>
             , a performance monitoring tool for React applications.
           </p>
           <p className="my-5">
             My blog about software engineering and related topics at can be
             found at{" "}
             <a
-  className="text-lg font-bold text-blue-500 hover:text-blue-700"
-  href="https://www.nickhuemmer.com"
->
-  nickhuemmer.com
-</a>
-
+              className="text-lg font-bold text-blue-500 hover:text-blue-700"
+              href="https://www.nickhuemmer.com"
+            >
+              nickhuemmer.com
+            </a>
             .
           </p>
           <p className="my-5">
@@ -68,8 +66,8 @@ export default function Home() {
         <br />
         <div className="w-100 h-px bg-white"></div>
 
-        <hr className="w-100 h-px bg-gray " />
-        <div className="logos flex flex-row items-center justify-center space-x-4">
+        <hr className="border-t-2 border-gray-400 w-[400px] mb-10" />
+        <div className="logos flex flex-row items-center justify-center space-x-4 mb-20">
           <div className="logo-div social flex flex-row items-center justify-center">
             <a className="mx-5" href="https://twitter.com/njhuemmer">
               <Image

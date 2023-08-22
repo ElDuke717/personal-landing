@@ -14,7 +14,6 @@ export default function Home() {
           alt="photo of nick huemmer"
           width={550}
           height={350}
-          priority
           className="next-image rounded-md"
         />
         <div className="flex flex-col items-left justify-center mx-20 max-w-[800px]">
@@ -75,7 +74,6 @@ export default function Home() {
                 alt="twitter logo"
                 width={75}
                 height={75}
-                priority
                 className=""
               />
             </a>
@@ -85,7 +83,6 @@ export default function Home() {
                 alt="github logo"
                 width={75}
                 height={75}
-                priority
                 className="next-image logo"
               />
             </a>
@@ -98,7 +95,6 @@ export default function Home() {
                 alt="linkedin logo"
                 width={75}
                 height={75}
-                priority
                 className="next-image logo"
               />
             </a>
@@ -108,7 +104,6 @@ export default function Home() {
                 alt="medium logo"
                 width={75}
                 height={75}
-                priority
                 className="next-image logo"
               />
             </a>

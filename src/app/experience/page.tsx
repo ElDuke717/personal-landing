@@ -21,8 +21,20 @@ export default function Experience() {
 
       <h2 className="text-xl font-bold mb-2">SKILLS:</h2>
       <div className="mb-4">
-        <strong>Strong:</strong> JavaScript (ES6+), React, HTML5, CSS, Sass,
-        Node.js, Express.js, REST API, Postman, Axios, Linux
+        <h2>Strong:</h2>{" "}
+        <ul>
+          <li>JavaScript (ES6+)</li>
+          <li>React</li>
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>Sass</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>REST API</li>
+          <li>Postman</li>
+          <li>Axios</li>
+          <li>Linux</li>
+        </ul>
       </div>
       <div className="mb-4">
         <strong>Experienced:</strong> Next.js, Redux, Astro, Svelte, SvelteKit,

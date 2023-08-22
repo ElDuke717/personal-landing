@@ -1,8 +1,8 @@
 export default function Experience() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">EXPERIENCE</h1>
-      <p className="mb-2">
+      {/* <h1 className="text-3xl font-bold mb-4">EXPERIENCE</h1> */}
+      {/* <p className="mb-2">
         <a
           className="text-blue-500 hover:underline"
           href="https://www.linkedin.com/in/nickjhuemmer"
@@ -17,30 +17,82 @@ export default function Experience() {
           {" "}
           GitHub{" "}
         </a>
-      </p>
+      </p> */}
 
-      <h2 className="text-xl font-bold mb-2">SKILLS:</h2>
+      {/* <h2 className="text-xl font-bold mb-2">SKILLS:</h2> */}
       <div className="mb-4">
-        <h2>Strong:</h2>{" "}
-        <ul>
-          <li>JavaScript (ES6+)</li>
-          <li>React</li>
-          <li>HTML5</li>
-          <li>CSS</li>
-          <li>Sass</li>
-          <li>Node.js</li>
-          <li>Express.js</li>
-          <li>REST API</li>
-          <li>Postman</li>
-          <li>Axios</li>
-          <li>Linux</li>
-        </ul>
-      </div>
-      <div className="mb-4">
-        <strong>Experienced:</strong> Next.js, Redux, Astro, Svelte, SvelteKit,
-        TypeScript, TailwindCSS, Bootstrap, Testing (Jest, Mocha), Open AI API,
-        PostgreSQL, NoSQL(MongoDB), Docker, Webpack, Visx, D3.js, YAML, Babel,
-        Redux, Pug, leading teams, Asana, Figma
+        <table className="border-collapse border border-gray-300">
+          <thead>
+            <tr>
+              <th className="border border-gray-300 px-4 py-2">
+                TECHNICAL SKILLS
+              </th>
+              <th className="border border-gray-300 px-4 py-2"> </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">
+                Programming Languages
+              </td>
+              <td className="border border-gray-300 px-4 py-2">
+                Javascript (ES6+), TypeScript, YAML
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">
+                Front End Technologies
+              </td>
+              <td className="border border-gray-300 px-4 py-2">
+                HTML5, CSS, TailwindCSS, Bootstrap, Sass, web APIs
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">
+                Back End Technologies
+              </td>
+              <td className="border border-gray-300 px-4 py-2">
+                Node.js, Express.js
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">Databases</td>
+              <td className="border border-gray-300 px-4 py-2">
+                PostgreSQL, NoSQL (MongoDB)
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">Frameworks</td>
+              <td className="border border-gray-300 px-4 py-2">
+                React, Redux, Next.js, Svelte, Astro
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">
+                Operating Systems
+              </td>
+              <td className="border border-gray-300 px-4 py-2">
+                Linux (Ubuntu, Debian, PopOS, command line proficient), Mac OS,
+                Windows
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">Tools</td>
+              <td className="border border-gray-300 px-4 py-2">
+                Postman, Docker, Webpack, Visx, D3.js, Babel, Pug, Testing
+                (Jest, Mocha), Asana, Figma, VSCode.
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2">Skills</td>
+              <td className="border border-gray-300 px-4 py-2">
+                Leading Teams, Web Content Accessibility Guidelines, Coaching
+                and Mentoring, Motivational Interviewing, Chemical and
+                Nutritional analysis.
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <h2 className="text-xl font-bold mb-2">SOFTWARE EXPERIENCE:</h2>

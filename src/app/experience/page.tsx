@@ -143,7 +143,9 @@ export default function Experience() {
 
       <p className="mb-2 mt-2 text-lg">
         <span className="chartreuse">StyleGPT</span> -{" "}
-        <span className="italic">Goal Tracker App</span>
+        <span className="italic">
+          AI-assisted tool for styling HTML elements
+        </span>
       </p>
       <ul className="list-disc list-inside mb-4 ml-4">
         <li>
@@ -237,32 +239,38 @@ export default function Experience() {
             costs and factoring efficiencies into processes.
           </li>
         </ul>
-      </div>
 
-      <h2 className="text-xl font-bold mb-2">EDUCATION:</h2>
-      <p>Codesmith Advanced Software Engineering Immersion | Resident</p>
-      <p>
-        North Carolina State University | BS Biological Sciences, Food Science
-        and Nutrition
-      </p>
-      <p>The Ohio State University | MS Food Science</p>
-      <h2 className="text-xl font-bold mb-2">TALKS AND PUBLICATIONS:</h2>
-      <p>The Wild World of Front End Frameworks | Richmond, VA</p>
-      <p>Medium | "Reactime just keeps getting better."</p>
-      <h2 className="text-xl font-bold mb-2">INTERESTS:</h2>
-      <ul className="list-disc list-inside mb-4">
-        <li>Food (Health, Nutrition, Food Science)</li>
-        <li>Fitness</li>
-        <li>Walking (Dog walking at Pocahontas State Park)</li>
-        <li>Quality time with kids</li>
-        <li>Reading (Natural Science, Technology, Web, Machine Learning)</li>
-      </ul>
-      <div className="flex justify-center items-center mt-8">
-        <hr className="border-t-2 border-white-400 w-[300px] mb-10 md:w-[675px] lg:w-[800px]" />
+        <h2 className="text-[30px] font-bold mb-2">EDUCATION:</h2>
+        <p>Codesmith Advanced Software Engineering Immersion | Resident</p>
+        <p>
+          North Carolina State University | BS Biological Sciences, Food Science
+          and Nutrition
+        </p>
+        <p>The Ohio State University | MS Food Science</p>
+        <h2 className="text-[30px] font-bold mb-2 mt-5">
+          TALKS AND PUBLICATIONS:
+        </h2>
+        <p>The Wild World of Front End Frameworks | Richmond, VA</p>
+        <p>Medium | "Reactime just keeps getting better."</p>
+        <h2 className="text-[30px] font-bold mb-2 mt-5">INTERESTS:</h2>
+        <ul className="list-disc list-inside mb-4">
+          <li>Food (Health, Nutrition, Food Science)</li>
+          <li>Fitness</li>
+          <li>Rucking (with my dog and son at Pocahontas State Park)</li>
+          <li>Quality time with kids</li>
+          <li>Writing</li>
+          <li>Walking</li>
+          <li>Philosophy</li>
+          <li>Botanicals</li>
+          <li>Reading (Natural Science, Technology, Web, Machine Learning)</li>
+        </ul>
+        <div className="flex justify-center items-center mt-8">
+          <hr className="border-t-2 border-white-400 w-[300px] mb-10 md:w-[675px] lg:w-[800px]" />
+        </div>
+        <footer className="text-center p-4 mt-5">
+          © {new Date().getFullYear()} Nick Huemmer
+        </footer>
       </div>
-      <footer className="text-center p-4 mt-5">
-        © {new Date().getFullYear()} Nick Huemmer
-      </footer>
     </div>
   );
 }

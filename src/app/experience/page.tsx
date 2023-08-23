@@ -36,7 +36,7 @@ export default function Experience() {
                 Programming Languages
               </td>
               <td className="border border-gray-300 px-4 py-2">
-                Javascript (ES6+), TypeScript, YAML
+                Javascript (ES6+), TypeScript, Python, YAML
               </td>
             </tr>
             <tr>

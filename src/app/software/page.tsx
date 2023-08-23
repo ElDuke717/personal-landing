@@ -3,7 +3,12 @@ import Layout from "src/app/layout.tsx";
 
 export default function Software() {
   return (
+    
     <Layout>
+      <h1 className="ml-[75px] mb-[25px] mt-[50px] text-xl">Software</h1>
+      <p className="text-left max-w-[600px] px-4 ml-[75px] mb-[50px]">
+          Here are some software products that I've recentely worked on. Click on the logo to go to the GitHub repo.
+        </p>
       <div className="flex flex-col items-center justify-center space-y-6 ">
         <a href="https://github.com/open-source-labs/reactime" className="app">
           <Image
@@ -33,7 +38,7 @@ export default function Software() {
             className="next-image logo rounded-lg"
           />
         </a>
-        <p className="text-center max-w-[600px] px-4">
+        <p className="text-left max-w-[600px] px-4">
           Goal Keeper is the premier application designed to help you achieve
           your goals. By allowing you to input individual goals and necessary
           sub-tasks, Goal Keeper makes tracking your progress and managing your
@@ -50,7 +55,7 @@ export default function Software() {
             className="next-image logo rounded-lg"
           />
         </a>
-        <p className="text-center max-w-[600px] px-4">
+        <p className="text-left max-w-[600px] px-4">
           StyleGPT is an app that leverages OpenAI's ChatGPT API to style HTML
           elements. By interacting with the app, you can receive stylistic
           recommendations for your HTML elements, making web development more

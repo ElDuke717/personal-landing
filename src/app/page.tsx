@@ -56,7 +56,7 @@ export default function Home() {
             sciences, technology), writing and spending time with my family.
           </p>
           <a
-            className="text-lg font-semibold"
+            className="text-lg font-semibold glow-yellow"
             href="mailto:hello@nickhuemmer.me"
           >
             hello@nickhuemmer.me
@@ -69,7 +69,10 @@ export default function Home() {
 
         <div className="logos flex flex-row items-center justify-center space-x-4 mb-20">
           <div className="logo-div social flex flex-row items-center justify-center">
-            <a className="mx-5" href="https://twitter.com/njhuemmer">
+            <a
+              className="mx-5 glow-yellow"
+              href="https://twitter.com/njhuemmer"
+            >
               <Image
                 src="/logos/twitter250.svg"
                 alt="twitter logo"
@@ -78,7 +81,7 @@ export default function Home() {
                 className=""
               />
             </a>
-            <a className="mx-5" href="https://github.com/ElDuke717">
+            <a className="mx-5 glow-yellow" href="https://github.com/ElDuke717">
               <Image
                 src="/logos/github250.svg"
                 alt="github logo"
@@ -88,7 +91,7 @@ export default function Home() {
               />
             </a>
             <a
-              className="mx-5"
+              className="mx-5 glow-yellow"
               href="https://www.linkedin.com/in/nickjhuemmer/"
             >
               <Image
@@ -99,7 +102,10 @@ export default function Home() {
                 className="next-image logo"
               />
             </a>
-            <a className="mx-5" href="https://medium.com/@njhuemmer">
+            <a
+              className="mx-5 glow-yellow"
+              href="https://medium.com/@njhuemmer"
+            >
               <Image
                 src="/logos/medium250-2.png"
                 alt="medium logo"

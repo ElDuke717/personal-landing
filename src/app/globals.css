@@ -77,3 +77,13 @@ h1 {
 h2 {
   font-variation-settings: "wght" 750;
 }
+
+.glow-yellow {
+  filter: drop-shadow(0px 0px 0px #fde895); /* Initial glow set to 0 */
+  transition: filter 0.3s ease-in-out; /* Transition property for the glow */
+}
+
+.glow-yellow:hover {
+  filter: drop-shadow(0px 0px 10px #fde895); /* Increase glow on hover */
+}
+

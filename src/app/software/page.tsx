@@ -1,14 +1,15 @@
 import Image from "next/image";
-import Layout from "src/app/layout.tsx";
+import Layout from "src/app/layout";
+
 
 export default function Software() {
   return (
     
     <Layout>
-      <h1 className="ml-[75px] mb-[25px] mt-[50px] text-xl">Software</h1>
+      <h1 className="ml-[75px] mb-[25px] mt-[50px] text-[50px] text-yellow-500">Software</h1>
       <p className="text-left max-w-[600px] px-4 ml-[75px] mb-[50px]">
           Here are some software products that I've recentely worked on. Click on the logo to go to the GitHub repo.
-        </p>
+      </p>
       <div className="flex flex-col items-center justify-center space-y-6 ">
         <a href="https://github.com/open-source-labs/reactime" className="app">
           <Image

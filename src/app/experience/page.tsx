@@ -19,6 +19,9 @@ export default function Experience() {
         </a>
       </p> */}
       {/* <h2 className="text-xl font-bold mb-2">SKILLS:</h2> */}
+      <h1 className="ml-[75px] mb-[25px] mt-[50px] text-[50px] text-green-500">
+        Experience
+      </h1>
       <div className="mb-4">
         <p className="text-left max-w-[600px]  ml-[25px] mb-[50px]">
           Here's a list of my skills and my experience

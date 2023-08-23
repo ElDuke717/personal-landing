@@ -19,19 +19,33 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <h1 className="font-bold text-4xl mx-[75px] mt-[75px]">Nick Huemmer</h1>
+        <h1 className="font-bold text-4xl mx-[75px] mt-[75px]">
+          <a href="/">Nick Huemmer</a>
+        </h1>
         <div className="flex justify-start items-center ml-[75px] my-8">
-          <a className="cursor-default" href="/">
+          <a
+            className="cursor-pointer hover:underline hover:text-[#FF5733] transition duration-1000"
+            href="/"
+          >
             about
           </a>
-          <a className="ml-4" href="/software">
+          <a
+            className="ml-4 cursor-pointer hover:underline hover:text-yellow-500 transition duration-1000"
+            href="/software"
+          >
             software
           </a>
-          <a className="ml-4" href="/experience">
+          <a
+            className="ml-4 cursor-pointer hover:underline hover:text-green-500 transition duration-1000"
+            href="/experience"
+          >
             experience
           </a>
         </div>
         <div>{children}</div>
+        <footer className="text-center p-4 ">
+          © {new Date().getFullYear()} Nick Huemmer
+        </footer>
       </body>
     </html>
   );

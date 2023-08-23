@@ -1,32 +1,14 @@
 export default function Experience() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
-      {/* <h1 className="text-3xl font-bold mb-4">EXPERIENCE</h1> */}
-      {/* <p className="mb-2">
-        <a
-          className="text-blue-500 hover:underline"
-          href="https://www.linkedin.com/in/nickjhuemmer"
-        >
-          LinkedIn
-        </a>{" "}
-        |
-        <a
-          className="text-blue-500 hover:underline"
-          href="https://github.com/ElDuke717"
-        >
-          {" "}
-          GitHub{" "}
-        </a>
-      </p> */}
-      {/* <h2 className="text-xl font-bold mb-2">SKILLS:</h2> */}
-      <h1 className="mb-[25px] mt-[50px] text-[50px] text-[#7FFF00]">
-        Experience
-      </h1>
+    <div className="max-w-4xl mx-auto px-4 py-8">
+      <h1 className="mb-[25px] mt-1 text-[50px] text-[#7FFF00]">Experience</h1>
       <div className="mb-4">
-        <p className="text-left max-w-[600px] mb-[50px]">
-          Here's a list of my skills and my experience
+        <p className="text-left max-w-[600px] mb-[50px] p-2 text-lg">
+          Here's a list of my skills followwed by my career experience. Note
+          that I have a lot of experience in the food industry. After a career
+          transition, I'm working as a software engineer.
         </p>
-        <h2 className="text-xl font-bold mb-2">SKILLS:</h2>
+        <h2 className="text-[30px] font-bold mb-2">SKILLS:</h2>
         <table className="border-collapse border border-gray-300">
           <thead>
             {/* <tr>
@@ -38,7 +20,7 @@ export default function Experience() {
           </thead>
           <tbody>
             <tr>
-              <td className="border border-gray-300 px-4 py-2">
+              <td className="border border-gray-300 px-5 py-2">
                 Programming Languages
               </td>
               <td className="border border-gray-300 px-4 py-2">
@@ -73,7 +55,7 @@ export default function Experience() {
                 React, Redux, Next.js, Svelte, Astro
               </td>
             </tr>
-            <tr>
+            {/* <tr>
               <td className="border border-gray-300 px-4 py-2">
                 Operating Systems
               </td>
@@ -81,7 +63,7 @@ export default function Experience() {
                 Linux (Ubuntu, Debian, PopOS, command line proficient), Mac OS,
                 Windows
               </td>
-            </tr>
+            </tr> */}
             <tr>
               <td className="border border-gray-300 px-4 py-2">Tools</td>
               <td className="border border-gray-300 px-4 py-2">
@@ -90,7 +72,9 @@ export default function Experience() {
               </td>
             </tr>
             <tr>
-              <td className="border border-gray-300 px-4 py-2">Skills</td>
+              <td className="border border-gray-300 px-4 py-2">
+                Additional Skills
+              </td>
               <td className="border border-gray-300 px-4 py-2">
                 Leading Teams, Web Content Accessibility Guidelines, Coaching
                 and Mentoring, Motivational Interviewing, Chemical and
@@ -100,12 +84,15 @@ export default function Experience() {
           </tbody>
         </table>
       </div>
-      <h2 className="text-xl font-bold mb-2">SOFTWARE EXPERIENCE:</h2>
-      <h3>Software Engineer</h3>
-      <p className="mb-2">
-        Open Source Labs <br />
-        Reactime - Open Source Chrome developer tool for debugging and
-        performance monitoring in React applications.
+      <h2 className="text-[30px] font-bold mb-2 mt-8">SOFTWARE EXPERIENCE:</h2>
+      <h3 className="text-[25px] golden-yellow">Software Engineer</h3>
+      <h3 className="text-lg yellow">Open Source Labs</h3>
+      <p className="mb-2 mt-2 text-lg">
+        <span className="chartreuse">Reactime</span> -{" "}
+        <span className="italic">
+          Open Source Chrome developer tool for debugging and performance
+          monitoring in React applications.
+        </span>
       </p>
       <ul className="list-disc list-inside mb-4">
         <li className="mb-2">
@@ -136,12 +123,14 @@ export default function Experience() {
           ).
         </li>
       </ul>
-      <h3>Software Developer</h3>
-      <p className="mb-2">
-        Goal Keeper <br />
-        Goal Tracker App
+
+      <h3 className="text-[25px] golden-yellow">Software Developer</h3>
+      <h3 className="text-lg yellow">Open Source Product Contributions</h3>
+      <p className="mb-2 mt-2 text-lg">
+        <span className="chartreuse">Goal Keeper</span> -{" "}
+        <span className="italic">Goal Tracker App</span>
       </p>
-      <ul className="list-disc list-inside mb-4">
+      <ul className="list-disc list-inside mb-4 ml-4">
         <li className="mb-2">
           Implemented React library to construct a responsive front-end with UI
           components to collect and store user goals.
@@ -151,11 +140,12 @@ export default function Experience() {
           query response time and refined overall product performance.
         </li>
       </ul>
-      <p className="mb-2">
-        Software Developer | StyleGPT | AI - assisted styling tool for
-        developers
+
+      <p className="mb-2 mt-2 text-lg">
+        <span className="chartreuse">StyleGPT</span> -{" "}
+        <span className="italic">Goal Tracker App</span>
       </p>
-      <ul className="list-disc list-inside mb-4">
+      <ul className="list-disc list-inside mb-4 ml-4">
         <li>
           Connected OpenAI API for CSS styles based on user input, enhancing UI
           creation.
@@ -165,79 +155,90 @@ export default function Experience() {
           operational efficiency.
         </li>
       </ul>
-      <h2 className="text-xl font-bold mb-2">CAREER EXPERIENCE:</h2>
-      <p className="mb-1">
-        Health Coach and Personal Trainer | Self Employed | Helped middle-aged
-        men lose weight and improve health-status
-      </p>
-      <p className="mb-1">2019-2021</p>
-      <ul className="list-disc list-inside mb-4">
-        <li>
-          Built coaching business including web and social media presence, with
-          greater than 250 followers.
-        </li>
-        <li>
-          Created nutritional guidance and exercise programs that built baseline
-          strength and improved mobility and facilitated weight loss of greater
-          than 25 lbs for all clients.
-        </li>
-      </ul>
-      <p className="mb-1">
-        Senior Product Developer | Clif Bar | Product creation, formulation,
-        optimization and commercialization
-      </p>
-      <p className="mb-1">2014-2019</p>
-      <ul className="list-disc list-inside mb-4">
-        <li>
-          Created lab notebooks using Excel and Sharepoint, reducing formula
-          development time by 30%.
-        </li>
-        <li>
-          Formulated products for improved nutrition and saved up to $2 million
-          yearly through process optimizations.
-        </li>
-      </ul>
-      <p className="mb-1">
-        Scientist II | Clorox | Product development for Hidden Valley Brand
-      </p>
-      <p className="mb-1">2012-2014</p>
-      <ul className="list-disc list-inside mb-4">
-        <li>
-          Developed and facilitated commercialization and launch of salad kits
-          for the Hidden Valley Brand, the largest product launch in 2013.
-        </li>
-        <li>
-          Led new product development initiative leading to five new products to
-          fill innovation pipeline.
-        </li>
-      </ul>
-      <p className="mb-1">
-        Product Application Technologist | Nestle | Product development for
-        Pizza Division
-      </p>
-      <p className="mb-1">2010-2012</p>
-      <ul className="list-disc list-inside mb-4">
-        <li>
-          Managed and led product development including timeline management,
-          cost control, ingredient procurement, and leveraging supplier
-          capabilities.
-        </li>
-        <li>
-          Collaborated with marketing, operations, and finance to deliver novel
-          pizza products.
-        </li>
-      </ul>
-      <p className="mb-1">
-        Scientist | Kraft Foods | Product development for Spoonable and Pourable
-        Dressings
-      </p>
-      <p className="mb-1">2007-2010</p>
-      <ul className="list-disc list-inside mb-4">
-        <li>
-          Generated over $1M of productivity savings by managing raw material
-          costs and factoring efficiencies into processes.
-        </li>
-      </ul>
+      <div className="flex justify-center items-center mt-8">
+        <hr className="border-t-2 border-white-400 w-[300px] mb-10 md:w-[675px] lg:w-[800px]" />
+      </div>
+      <h2 className="text-[30px] font-bold mb-2">CAREER EXPERIENCE:</h2>
+      <div className="text-lg">
+        <h3 className="text-[25px] golden-yellow">
+          Health Coach and Personal Trainer
+        </h3>
+        <p className="mb-2">
+          Self Employed | Helped middle-aged men lose weight and improve
+          health-status
+        </p>
+        <p className="mb-2">2019-2021</p>
+        <ul className="list-disc list-inside mb-4 ml-4">
+          <li className="mb-2">
+            Built coaching business including web and social media presence,
+            with greater than 250 followers.
+          </li>
+          <li className="mb-2">
+            Created nutritional guidance and exercise programs that built
+            baseline strength and improved mobility and facilitated weight loss
+            of greater than 25 lbs for all clients.
+          </li>
+        </ul>
+        <h3 className="text-[25px] golden-yellow">Senior Product Developer</h3>
+        <p className="mb-2">
+          Clif Bar | Product creation, formulation, optimization and
+          commercialization
+        </p>
+        <p className="mb-2">2014-2019</p>
+        <ul className="list-disc list-inside mb-4 ml-4">
+          <li className="mb-2">
+            Created lab notebooks using Excel and Sharepoint, reducing formula
+            development time by 30%.
+          </li>
+          <li className="mb-2">
+            Formulated products for improved nutrition and saved up to $2
+            million yearly through process optimizations.
+          </li>
+        </ul>
+        <h3 className="text-[25px] golden-yellow">Scientist II</h3>
+        <p className="mb-2">
+          Clorox | Product development for Hidden Valley Brand
+        </p>
+        <p className="mb-2">2012-2014</p>
+        <ul className="list-disc list-inside mb-4 ml-4">
+          <li className="mb-2">
+            Developed and facilitated commercialization and launch of salad kits
+            for the Hidden Valley Brand, the largest product launch in 2013.
+          </li>
+          <li className="mb-2">
+            Led new product development initiative leading to five new products
+            to fill innovation pipeline.
+          </li>
+        </ul>
+        <h3 className="text-[25px] golden-yellow">
+          Product Application Technologist
+        </h3>
+        <p className="mb-2">Nestle | Product development for Pizza Division</p>
+        <p className="mb-2">2010-2012</p>
+        <ul className="list-disc list-inside mb-4 ml-4">
+          <li className="mb-2">
+            Managed and led product development including timeline management,
+            cost control, ingredient procurement, and leveraging supplier
+            capabilities.
+          </li>
+          <li className="mb-2">
+            Collaborated with marketing, operations, and finance to deliver
+            novel pizza products.
+          </li>
+        </ul>
+        <h3 className="text-[25px] golden-yellow">Scientist</h3>
+        <p className="mb-2">
+          Kraft Foods | Product development for Spoonable and Pourable Dressings
+        </p>
+        <p className="mb-2">2007-2010</p>
+        <ul className="list-disc list-inside mb-4 ml-4">
+          <li className="mb-2">
+            Generated over $1M of productivity savings by managing raw material
+            costs and factoring efficiencies into processes.
+          </li>
+        </ul>
+      </div>
+
       <h2 className="text-xl font-bold mb-2">EDUCATION:</h2>
       <p>Codesmith Advanced Software Engineering Immersion | Resident</p>
       <p>

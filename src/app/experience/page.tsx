@@ -18,17 +18,20 @@ export default function Experience() {
           GitHub{" "}
         </a>
       </p> */}
-
       {/* <h2 className="text-xl font-bold mb-2">SKILLS:</h2> */}
       <div className="mb-4">
+        <p className="text-left max-w-[600px]  ml-[25px] mb-[50px]">
+          Here's a list of my skills and my experience
+        </p>
+        <h2 className="text-xl font-bold mb-2">SKILLS:</h2>
         <table className="border-collapse border border-gray-300">
           <thead>
-            <tr>
+            {/* <tr>
               <th className="border border-gray-300 px-4 py-2">
                 TECHNICAL SKILLS
               </th>
               <th className="border border-gray-300 px-4 py-2"> </th>
-            </tr>
+            </tr> */}
           </thead>
           <tbody>
             <tr>
@@ -94,32 +97,32 @@ export default function Experience() {
           </tbody>
         </table>
       </div>
-
       <h2 className="text-xl font-bold mb-2">SOFTWARE EXPERIENCE:</h2>
+      <h3>Software Engineer</h3>
       <p className="mb-2">
-        Software Engineer | OSLabs | Reactime | Open Source Chrome developer
-        tool for debugging and performance monitoring in React applications.
-        2023
+        Open Source Labs <br />
+        Reactime - Open Source Chrome developer tool for debugging and
+        performance monitoring in React applications.
       </p>
       <ul className="list-disc list-inside mb-4">
-        <li>
+        <li className="mb-2">
           Implemented TypeScript to identify and resolve errors at compile-time,
           resulting in a 20% increase in application stability.
         </li>
-        <li>
+        <li className="mb-2">
           Incorporated Visx and D3 to create interactive, developer-friendly
           radial bar graphs that illustrate React performance during
           development, improving usability and accessibility.
         </li>
-        <li>
+        <li className="mb-2">
           Elevated product stability and performance by increasing Jest testing
           coverage to over 80% of the component code.
         </li>
-        <li>
+        <li className="mb-2">
           Led the Initiative to resolve critical bugs in Reactime by updating
           outdated modules and code.
         </li>
-        <li>
+        <li className="mb-2">
           Product revitalized under tech accelerator OS Labs (
           <a
             className="text-blue-500 hover:underline"
@@ -130,10 +133,13 @@ export default function Experience() {
           ).
         </li>
       </ul>
-
-      <p className="mb-2">Software Developer| Goal Keeper | Goal Tracker App</p>
+      <h3>Software Developer</h3>
+      <p className="mb-2">
+        Goal Keeper <br />
+        Goal Tracker App
+      </p>
       <ul className="list-disc list-inside mb-4">
-        <li>
+        <li className="mb-2">
           Implemented React library to construct a responsive front-end with UI
           components to collect and store user goals.
         </li>
@@ -142,7 +148,6 @@ export default function Experience() {
           query response time and refined overall product performance.
         </li>
       </ul>
-
       <p className="mb-2">
         Software Developer | StyleGPT | AI - assisted styling tool for
         developers
@@ -157,7 +162,6 @@ export default function Experience() {
           operational efficiency.
         </li>
       </ul>
-
       <h2 className="text-xl font-bold mb-2">CAREER EXPERIENCE:</h2>
       <p className="mb-1">
         Health Coach and Personal Trainer | Self Employed | Helped middle-aged
@@ -175,7 +179,6 @@ export default function Experience() {
           than 25 lbs for all clients.
         </li>
       </ul>
-
       <p className="mb-1">
         Senior Product Developer | Clif Bar | Product creation, formulation,
         optimization and commercialization
@@ -191,7 +194,6 @@ export default function Experience() {
           yearly through process optimizations.
         </li>
       </ul>
-
       <p className="mb-1">
         Scientist II | Clorox | Product development for Hidden Valley Brand
       </p>
@@ -206,7 +208,6 @@ export default function Experience() {
           fill innovation pipeline.
         </li>
       </ul>
-
       <p className="mb-1">
         Product Application Technologist | Nestle | Product development for
         Pizza Division
@@ -223,7 +224,6 @@ export default function Experience() {
           pizza products.
         </li>
       </ul>
-
       <p className="mb-1">
         Scientist | Kraft Foods | Product development for Spoonable and Pourable
         Dressings
@@ -235,7 +235,6 @@ export default function Experience() {
           costs and factoring efficiencies into processes.
         </li>
       </ul>
-
       <h2 className="text-xl font-bold mb-2">EDUCATION:</h2>
       <p>Codesmith Advanced Software Engineering Immersion | Resident</p>
       <p>
@@ -243,11 +242,9 @@ export default function Experience() {
         and Nutrition
       </p>
       <p>The Ohio State University | MS Food Science</p>
-
       <h2 className="text-xl font-bold mb-2">TALKS AND PUBLICATIONS:</h2>
       <p>The Wild World of Front End Frameworks | Richmond, VA</p>
       <p>Medium | "Reactime just keeps getting better."</p>
-
       <h2 className="text-xl font-bold mb-2">INTERESTS:</h2>
       <ul className="list-disc list-inside mb-4">
         <li>Food (Health, Nutrition, Food Science)</li>

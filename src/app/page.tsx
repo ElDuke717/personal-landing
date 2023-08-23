@@ -65,7 +65,8 @@ export default function Home() {
         <br />
         <div className="w-100 h-px bg-white"></div>
 
-        <hr className="border-t-2 border-gray-400 w-[400px] mb-10" />
+        <hr className="border-t-2 border-gray-400 w-[300px] mb-10 md:w-[675px] lg:w-[800px]" />
+
         <div className="logos flex flex-row items-center justify-center space-x-4 mb-20">
           <div className="logo-div social flex flex-row items-center justify-center">
             <a className="mx-5" href="https://twitter.com/njhuemmer">

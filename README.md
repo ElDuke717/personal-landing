@@ -13,3 +13,6 @@ This project is deployed on Vercel.
 ## Built With
 
 - [Next.js](https://nextjs.org/) - React frameork by Vercel.
+
+This site is called personal-landing on Github and refere
+nced as personal-landing-aug23 on Vercel.

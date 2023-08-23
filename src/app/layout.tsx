@@ -19,9 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <h1 className="font-bold text-4xl mx-[75px] mt-[75px]">
-          <a href="/">Nick Huemmer</a>
-        </h1>
+      <h1 className="font-bold text-2xl md:text-4xl mx-[75px] mt-[75px]">
+  <a href="/">Nick Huemmer</a>
+</h1>
         <div className="flex justify-start items-center ml-[75px] my-8">
           <a
             className="cursor-pointer hover:underline hover:text-[#FFFF00] transition duration-1000"

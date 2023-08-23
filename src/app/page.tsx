@@ -16,9 +16,9 @@ export default function Home() {
           height={350}
           className="next-image rounded-md"
         />
-        <div className="flex flex-col items-left justify-center mx-20 max-w-[800px]">
+        <div className="text-15px] flex flex-col items-left justify-center mx-20 max-w-[800px]">
           <p className="my-5">
-            I&#39;m a Software Engineer, full-stack developer and web
+            I&#39;m a software engineer, full-stack developer and web
             enthusiast.{" "}
           </p>
           <p>

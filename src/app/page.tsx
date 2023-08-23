@@ -118,8 +118,10 @@ export default function Home() {
         </div>
       </div>
       <footer className="text-center p-4 mt-5">
-        © {new Date().getFullYear()} Nick Huemmer
-      </footer>
+        © {new Date().getFullYear()}
+{' '}
+Nick Huemmer
+</footer>
     </Layout>
   );
 }

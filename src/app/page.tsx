@@ -65,7 +65,7 @@ export default function Home() {
         <br />
         <div className="w-100 h-px bg-white"></div>
 
-        <hr className="border-t-2 border-gray-400 w-[300px] mb-10 md:w-[675px] lg:w-[800px]" />
+        <hr className="border-t-2 border-white-400 w-[300px] mb-10 md:w-[675px] lg:w-[800px]" />
 
         <div className="logos flex flex-row items-center justify-center space-x-4 mb-20">
           <div className="logo-div social flex flex-row items-center justify-center">
@@ -117,6 +117,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <footer className="text-center p-4 mt-5">
+        © {new Date().getFullYear()} Nick Huemmer
+      </footer>
     </Layout>
   );
 }

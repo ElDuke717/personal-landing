@@ -24,28 +24,25 @@ export default function RootLayout({
         </h1>
         <div className="flex justify-start items-center ml-[75px] my-8">
           <a
-            className="cursor-pointer hover:underline hover:text-[#FF5733] transition duration-1000"
+            className="cursor-pointer hover:underline hover:text-[#FFFF00] transition duration-1000"
             href="/"
           >
             about
           </a>
           <a
-            className="ml-4 cursor-pointer hover:underline hover:text-yellow-500 transition duration-1000"
+            className="ml-4 cursor-pointer hover:underline hover:text-[#FFA500] transition duration-1000"
             href="/software"
           >
             software
           </a>
           <a
-            className="ml-4 cursor-pointer hover:underline hover:text-green-500 transition duration-1000"
+            className="ml-4 cursor-pointer hover:underline hover:text-[#7FFF00] transition duration-1000"
             href="/experience"
           >
             experience
           </a>
         </div>
         <div>{children}</div>
-        <footer className="text-center p-4 ">
-          © {new Date().getFullYear()} Nick Huemmer
-        </footer>
       </body>
     </html>
   );

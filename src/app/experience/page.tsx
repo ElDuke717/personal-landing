@@ -19,11 +19,11 @@ export default function Experience() {
         </a>
       </p> */}
       {/* <h2 className="text-xl font-bold mb-2">SKILLS:</h2> */}
-      <h1 className="ml-[75px] mb-[25px] mt-[50px] text-[50px] text-green-500">
+      <h1 className="mb-[25px] mt-[50px] text-[50px] text-[#7FFF00]">
         Experience
       </h1>
       <div className="mb-4">
-        <p className="text-left max-w-[600px]  ml-[25px] mb-[50px]">
+        <p className="text-left max-w-[600px] mb-[50px]">
           Here's a list of my skills and my experience
         </p>
         <h2 className="text-xl font-bold mb-2">SKILLS:</h2>
@@ -256,6 +256,12 @@ export default function Experience() {
         <li>Quality time with kids</li>
         <li>Reading (Natural Science, Technology, Web, Machine Learning)</li>
       </ul>
+      <div className="flex justify-center items-center mt-8">
+        <hr className="border-t-2 border-white-400 w-[300px] mb-10 md:w-[675px] lg:w-[800px]" />
+      </div>
+      <footer className="text-center p-4 mt-5">
+        © {new Date().getFullYear()} Nick Huemmer
+      </footer>
     </div>
   );
 }

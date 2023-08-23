@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 // This is the layout file that wraps all pages.
 
@@ -43,6 +44,7 @@ export default function RootLayout({
           </a>
         </div>
         <div>{children}</div>
+        <Analytics />
       </body>
     </html>
   );

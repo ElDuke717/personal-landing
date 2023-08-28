@@ -1,16 +1,17 @@
 import Image from "next/image";
 import Layout from "../layout";
 
-
 export default function Software() {
   return (
-    
     <Layout>
-      <h1 className="ml-[75px] mb-[25px] mt-[50px] text-[50px] text-[#FFA500]">Software</h1>
+      <h1 className="ml-[75px] mb-[25px] mt-[50px] text-[50px] text-[#FFA500]">
+        Software
+      </h1>
       <p className="text-left px-4 ml-[75px] mb-[50px]">
-          Here are some software products that I've recentely worked on. Click on the logo to go to the GitHub repo.
+        Here are some software products that I've recentely worked on. Click on
+        the logo to go to the GitHub repo.
       </p>
-      
+
       <div className="flex flex-col items-center justify-center space-y-6 ">
         <a href="https://github.com/open-source-labs/reactime" className="app">
           <Image
@@ -69,7 +70,9 @@ export default function Software() {
       </div>
 
       <footer className="text-center p-4 mt-5">
-          © {new Date().getFullYear()} Nick Huemmer
+        © {new Date().getFullYear()}
+{' '}
+Nick Huemmer
       </footer>
     </Layout>
   );

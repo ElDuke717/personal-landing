@@ -68,7 +68,7 @@ export default function Experience() {
               <td className="border border-gray-300 px-4 py-2">Tools</td>
               <td className="border border-gray-300 px-4 py-2">
                 Postman, Docker, Webpack, Visx, D3.js, Babel, Pug, Testing
-                (Jest, Mocha), Asana, Figma, VSCode.
+                (Jest, Mocha), Asana, Figma, VSCode, Jupyter Notebook, Git
               </td>
             </tr>
             <tr>

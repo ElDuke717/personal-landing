@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Nick Huemmer</title>
       </Head>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center mx-4">
         <Image
           src="/images/lo--2.jpg"
           alt="photo of nick huemmer"
@@ -56,7 +56,7 @@ export default function Home() {
             sciences, technology), writing and spending time with my family.
           </p>
           <a
-            className="text-lg font-semibold glow-yellow"
+            className="text-lg font-semibold glow-yellow my-4"
             href="mailto:hello@nickhuemmer.me"
           >
             hello@nickhuemmer.me

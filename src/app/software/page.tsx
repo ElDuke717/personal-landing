@@ -13,7 +13,7 @@ export default function Software() {
       </p>
 
       <div className="flex flex-col items-center justify-center space-y-6 ">
-        <a href="https://github.com/open-source-labs/reactime" className="app">
+        <a href="https://www.reacti.me/" className="app">
           <Image
             src="/logos/reactime_20.png"
             alt="reactime 20 logo"
@@ -70,9 +70,7 @@ export default function Software() {
       </div>
 
       <footer className="text-center p-4 mt-5">
-        © {new Date().getFullYear()}
-{' '}
-Nick Huemmer
+        © {new Date().getFullYear()} Nick Huemmer
       </footer>
     </Layout>
   );

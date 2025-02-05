@@ -1,17 +1,15 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
 // This is the layout file that wraps all pages.
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Nick Huemmer",
   description: "Nick Huemmer is a software engineer.",
 };
-// Children is the content of the page. They must added to the layout.
+
+// Children is the content of the page. They must be added to the layout.
 export default function RootLayout({
   children,
 }: {
@@ -19,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className="font-superior-serif">
         <h1 className="font-bold text-2xl md:text-4xl mx-[75px] mt-[75px]">
           <a href="/" className="text-gray-900">Nick Huemmer</a>
         </h1>

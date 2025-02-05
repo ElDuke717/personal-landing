@@ -159,9 +159,9 @@ export default function Experience() {
           <li>Rucking (with my dog and son at Pocahontas State Park)</li>
           <li>Quality time with kids</li>
           <li>Writing</li>
-          <li>Walking</li>
+          <li>Hiking</li>
           <li>Philosophy</li>
-          <li>Botanicals</li>
+          <li>Sewing</li>
           <li>Reading (Natural Science, Technology, Web, Machine Learning)</li>
         </ul>
 

@@ -14,11 +14,11 @@ export default function Home() {
           alt="photo of nick "
           width={550}
           height={350}
-          className="next-image rounded-md border-4 border-white"
+          className="next-image rounded-md border-4 border-white my-10 md:my-20 lg:my-20 shadow-lg shadow-black"
         />
         <div className="text-15px] flex flex-col items-left justify-center mx-20 max-w-[800px]">
           <p className="my-5">
-            I&#39;m a software engineer.{" "}
+            I&#39;m a software engineer. I also sew and do product design.{" "}
           </p>
           <p>
             The tools I use to build things are JavaScript, TypeScript, React, Node, Express, Python and PostgreSQL.  I use Linux as my daily driver, and use a suite of open source tools to build and deploy applications and make different products.

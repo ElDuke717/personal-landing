@@ -21,20 +21,20 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <h1 className="font-bold text-2xl md:text-4xl mx-[75px] mt-[75px]">
-          <a href="/">Nick Huemmer</a>
+          <a href="/" className="text-gray-900">Nick Huemmer</a>
         </h1>
         <div className="flex justify-start items-center ml-[75px] my-8 text-xl">
           <a
-            className="cursor-pointer hover:underline hover:text-[#FFFF00] transition duration-1000 "
+            className="cursor-pointer hover:underline hover:text-[#FFFF00] transition duration-1000 mr-6"
             href="/"
           >
-            about
+            About
           </a>
           <a
-            className="ml-4 cursor-pointer hover:underline hover:text-[#7FFF00] transition duration-1000"
+            className="ml-4 cursor-pointer hover:underline hover:text-[#FFFF00] transition duration-1000"
             href="/experience"
           >
-            experience
+            Skills and Experience
           </a>
         </div>
         <div>{children}</div>

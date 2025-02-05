@@ -10,25 +10,25 @@ export default function Home() {
       </Head>
       <div className="flex flex-col items-center justify-center mx-4">
         <Image
-          src="/images/lo--2.jpg"
-          alt="photo of nick huemmer"
+          src="/images/newspaper-image.png"
+          alt="photo of nick "
           width={550}
           height={350}
-          className="next-image rounded-md"
+          className="next-image rounded-md border-4 border-white"
         />
         <div className="text-15px] flex flex-col items-left justify-center mx-20 max-w-[800px]">
           <p className="my-5">
             I&#39;m a software engineer.{" "}
           </p>
           <p>
-            The tools I use to build things are JavaScript, TypeScript, React, Node, Express, Python and PostgreSQL.
+            The tools I use to build things are JavaScript, TypeScript, React, Node, Express, Python and PostgreSQL.  I use Linux as my daily driver, and use a suite of open source tools to build and deploy applications and make different products.
           </p>
 
           <p className="my-5">
             I am an open-source enthusiast and have experience contributing to
             several open source projects including{" "}
             <a
-              className="font-bold underline underline-offset-2 text-blue-500 hover:text-blue-700"
+              className="font-bold underline underline-offset-2 text-grey-500 hover:text-blue-700"
               href="https://www.reacti.me/"
             >
               Reactime
@@ -39,7 +39,7 @@ export default function Home() {
             My blog about software engineering and related topics at can be
             found at{" "}
             <a
-              className="text-lg font-bold text-blue-500 hover:text-blue-700"
+              className="text-lg font-bold text-grey-500 hover:text-blue-700"
               href="https://www.nickhuemmer.com"
             >
               nickhuemmer.com
@@ -50,24 +50,27 @@ export default function Home() {
             My primary interests are walking, reading (philosophy, natural
             sciences, technology), writing and spending time with my family.
           </p>
+          <p className="my-5">
+            Contact me at:
+          </p>
           <a
             className="text-lg font-semibold glow-yellow my-4"
             href="mailto:hello@nickhuemmer.me"
           >
-            hello@nickhuemmer.me
+            hello at nickhuemmer.me
           </a>
         </div>
         <br />
         <div className="w-100 h-px bg-white"></div>
 
-        <hr className="border-t-2 border-white-400 w-[300px] mb-10 md:w-[675px] lg:w-[800px]" />
+        <hr className="border-t-2 border-gray-700 w-[300px] mb-10 md:w-[675px] lg:w-[800px]" />
 
         <div className="logos flex flex-row items-center justify-center space-x-4 mb-20">
           <div className="logo-div social flex flex-row items-center justify-center">
            
             <a className="mx-5 glow-yellow" href="https://github.com/ElDuke717">
               <Image
-                src="/logos/github250.svg"
+                src="/logos/github-svg.svg"
                 alt="github logo"
                 width={75}
                 height={75}
@@ -79,10 +82,10 @@ export default function Home() {
               href="https://www.linkedin.com/in/nickjhuemmer/"
             >
               <Image
-                src="/logos/linkedin250.svg"
+                src="/logos/linkedin-svg.svg"
                 alt="linkedin logo"
-                width={75}
-                height={75}
+                width={125}
+                height={125}
                 className="next-image logo"
               />
             </a>

@@ -31,12 +31,6 @@ export default function RootLayout({
             about
           </a>
           <a
-            className="ml-4 cursor-pointer hover:underline hover:text-[#FFA500] transition duration-1000"
-            href="/software"
-          >
-            software
-          </a>
-          <a
             className="ml-4 cursor-pointer hover:underline hover:text-[#7FFF00] transition duration-1000"
             href="/experience"
           >

@@ -18,15 +18,10 @@ export default function Home() {
         />
         <div className="text-15px] flex flex-col items-left justify-center mx-20 max-w-[800px]">
           <p className="my-5">
-            I&#39;m a software engineer, full-stack developer and web
-            enthusiast.{" "}
+            I&#39;m a software engineer.{" "}
           </p>
           <p>
-            I enjoy crafting immersive, functional, and aesthetically pleasing
-            websites and applications that are also highly accessible. The tools
-            I have the most experience with are JavaScript, HTML5, CSS, Node.js,
-            Express.js, and React. I also work with frontend frameworks Next.js,
-            Svelte and Astro.
+            The tools I use to build things are JavaScript, TypeScript, React, Node, Express, Python and PostgreSQL.
           </p>
 
           <p className="my-5">

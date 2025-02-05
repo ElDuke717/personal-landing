@@ -18,7 +18,7 @@ export default function Home() {
         />
         <div className="text-15px] flex flex-col items-left justify-center mx-20 max-w-[800px]">
           <p className="my-5">
-            I&#39;m a software engineer. I also sew and do product design.{" "}
+            I&#39;m a software engineer. I also do lot's of other things like tinker with computers, sew, train dogs and raise kids.{" "}
           </p>
           <p>
             The tools I use to build things are JavaScript, TypeScript, React, Node, Express, Python and PostgreSQL.  I use Linux as my daily driver, and use a suite of open source tools to build and deploy applications and make different products.
